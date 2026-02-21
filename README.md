@@ -13,7 +13,7 @@ This project handles 12GB+ files in the browser by orchestrating three key techn
 - **TUS Protocol:** Uses `tus-js-client` to split the file into 5MB chunks and reliably upload them. If the network drops or the tab closes, the upload can be perfectly resumed from the last synced chunk.
 
 ## 🤖 AI-Generated "Vibe Coding"
-Full disclosure: the code in this specific repository was entirely AI-generated with the help of my personal AI assistant. 
+Full disclosure: the code in this specific repository was entirely AI-generated with the help of my assistant. 
 
 I have a strong habit of **"vibe coding."** Whenever I need to solve a complex architectural hurdle for my real project, I extract the problem and test the concept in isolation using AI. This allows me to rapidly prototype, discover nasty edge cases (like OPFS concurrency and browser chunk limitations), and validate the required technologies before doing the actual implementation in my production codebase. 
 
