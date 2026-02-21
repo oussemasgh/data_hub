@@ -6,7 +6,9 @@ dist/
 .vscode/
 uploads/
 # Build artifacts
-data_hub_server/upload-files/
+data_hub_server/uploads/
+data_hub_server/node_modules/
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
